@@ -8,4 +8,8 @@ df = pickle.load(open('df.pkl','rb'))
 
 st.title("Laptop Predictor")
 
-company = st.selectbox('Brand',df['Company'].unique())
+st.sidebar.selectbox('Brand',df['Company'].unique())
+
+
+
+
