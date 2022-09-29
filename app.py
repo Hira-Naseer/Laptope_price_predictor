@@ -2,6 +2,7 @@ import math
 import pickle
 import numpy as np
 import streamlit as st
+import sklearn
 
 pipe = pickle.load(open('pipe.pkl','rb'))
 df = pickle.load(open('df.pkl','rb'))
